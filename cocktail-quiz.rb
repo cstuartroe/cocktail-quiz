@@ -85,12 +85,14 @@ def generate_mixing_sequence(cocktail)
     out << ("top off with " + top)
   end
 
-  out << cocktail["garnish"] << "serve"
+  out << cocktail["garnish"].dup << "serve"
+
+  return out
 end
 
 def play_mixing_sequence(seq)
   helps = 0
-
+  
   for item in seq
     if item.class == Array
       while item.length > 0
@@ -141,7 +143,7 @@ def quiz(cocktail_list, trials)
   puts "Asked for help #{helps} times."
   puts "#{elapsed} seconds elapsed."
 
-  score = 75 - (helps*5 + elapsed)/trials
+  score = 100 - (helps*5 + elapsed)/trials
 
   puts "Your final score is #{score}."
 end
