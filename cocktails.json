@@ -1,0 +1,229 @@
+{
+  "materials": {
+    "liquid ingredients": ["vodka", "light rum", "gin", "tequila", "triple sec",
+      "vermouth", "kahlua", "lime juice", "lemon juice", "orange juice",
+      "cranberry juice", "pineapple juice", "grenadine", "cola", "ginger beer",
+      "soda", "tonic"],
+    "solid ingredients": ["sugar", "mint"],
+    "garnishes": ["orange slice", "lime wedge", "lemon slice", "cherry", "mint sprig"],
+    "rims": ["sugar", "salt"],
+    "glasses": ["wine", "highball", "lowball"],
+    "volumes": ["top", 20, 30, 45, 60, 90]
+  },
+  "cocktails": [
+    {
+      "name": "Cosmopolitan",
+      "glass": "wine",
+      "ice": false,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "vodka", "volume": 45},
+        {"ingredient": "cranberry juice", "volume": 45},
+        {"ingredient": "lime juice", "volume": 20},
+        {"ingredient": "triple sec", "volume": 20}
+      ],
+      "shaken": true,
+      "garnish": ["lime wedge"]
+    },
+    {
+      "name": "Screwdriver",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "vodka", "volume": 45},
+        {"ingredient": "orange juice", "volume": 90}
+      ],
+      "shaken": false,
+      "garnish": []
+    },
+    {
+      "name": "Tequila Sunrise",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "tequila", "volume": 45},
+	      {"ingredient": "orange juice", "volume": 60},
+	      {"ingredient": "grenadine", "volume": 20}
+      ],
+      "shaken": false,
+      "garnish": ["orange slice", "cherry"]
+    },
+    {
+      "name": "Malibu Bay Breeze",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "light rum", "volume": 45},
+	      {"ingredient": "pineapple juice", "volume": 60},
+	      {"ingredient": "cranberry juice", "volume": 60}
+      ],
+      "shaken": false,
+      "garnish": []
+    },
+    {
+      "name": "Lemon Drop",
+      "glass": "wine",
+      "ice": false,
+      "rim": "sugar",
+      "ingredients": [
+        {"ingredient": "vodka", "volume": 45},
+        {"ingredient": "sugar", "volume": null},
+        {"ingredient": "lemon juice", "volume": 20},
+        {"ingredient": "triple sec", "volume": 20}
+      ],
+      "shaken": true,
+      "garnish": ["lemon slice"]
+    },
+    {
+      "name": "Long Island Iced Tea",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "light rum", "volume": 20},
+        {"ingredient": "gin", "volume": 20},
+        {"ingredient": "vodka", "volume": 20},
+        {"ingredient": "tequila", "volume": 20},
+        {"ingredient": "lemon juice", "volume": 30},
+        {"ingredient": "cola", "volume": "top"}
+      ],
+      "shaken": false,
+      "garnish": ["lemon slice"]
+    },
+    {
+      "name": "Margarita",
+      "glass": "wine",
+      "ice": true,
+      "rim": "salt",
+      "ingredients": [
+        {"ingredient": "tequila", "volume": 45},
+        {"ingredient": "triple sec", "volume": 20},
+        {"ingredient": "lime juice", "volume": 20}
+      ],
+      "shaken": true,
+      "garnish": ["lime wedge"]
+    },
+    {
+      "name": "Mojito",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "light rum", "volume": 45},
+        {"ingredient": "sugar", "volume": null},
+        {"ingredient": "lime juice", "volume": 45},
+        {"ingredient": "mint", "volume": null},
+        {"ingredient": "soda", "volume": "top"}
+      ],
+      "shaken": true,
+      "garnish": ["mint sprig"]
+    },
+    {
+      "name": "Daiquiri",
+      "glass": "wine",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "light rum", "volume": 45},
+        {"ingredient": "triple sec", "volume": 20},
+        {"ingredient": "lime juice", "volume": 20},
+        {"ingredient": "sugar", "volume": null}
+      ],
+      "shaken": true,
+      "garnish": []
+    },
+    {
+      "name": "Moscow Mule",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "vodka", "volume": 45},
+        {"ingredient": "lime juice", "volume": 20},
+        {"ingredient": "ginger beer", "volume": "top"}
+      ],
+      "shaken": false,
+      "garnish": ["lime wedge"]
+    },
+    {
+      "name": "Black Russian",
+      "glass": "lowball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "kahlua", "volume": 20},
+        {"ingredient": "vodka", "volume": 45}
+      ],
+      "shaken": false,
+      "garnish": []
+    },
+    {
+      "name": "Cuba Libre",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "light rum", "volume": 45},
+        {"ingredient": "cola", "volume": "top"}
+      ],
+      "shaken": false,
+      "garnish": []
+    },
+    {
+      "name": "Kamikaze",
+      "glass": "lowball",
+      "ice": false,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "vodka", "volume": 30},
+        {"ingredient": "triple sec", "volume": 30},
+        {"ingredient": "lime juice", "volume": 30}
+      ],
+      "shaken": true,
+      "garnish": []
+    },
+    {
+      "name": "Gin & Tonic",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "gin", "volume": 45},
+        {"ingredient": "lime juice", "volume": 20},
+        {"ingredient": "tonic", "volume": "top"}
+      ],
+      "shaken": false,
+      "garnish": ["lime wedge"]
+    },
+    {
+      "name": "Tom Collins",
+      "glass": "highball",
+      "ice": true,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "gin", "volume": 45},
+        {"ingredient": "sugar", "volume": null},
+        {"ingredient": "lime juice", "volume": 20},
+        {"ingredient": "soda", "volume": "top"}
+      ],
+      "shaken": true,
+      "garnish": ["lemon slice", "cherry"]
+    },
+    {
+      "name": "Bronx",
+      "glass": "wine",
+      "ice": false,
+      "rim": null,
+      "ingredients": [
+        {"ingredient": "gin", "volume": 30},
+        {"ingredient": "vermouth", "volume": 30},
+        {"ingredient": "orange juice", "volume": 20}
+      ],
+      "shaken": false,
+      "garnish": []
+    }
+  ]
+}
